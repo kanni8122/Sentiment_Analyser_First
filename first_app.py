@@ -1,4 +1,4 @@
-import nltk
+import textblob
 from textblob import TextBlob
 import cleantext
 import streamlit as st
@@ -11,6 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import wordcloud
 from wordcloud import WordCloud
+import nltk
 from rake_nltk import Rake
 from nltk import ne_chunk, pos_tag, word_tokenize,sent_tokenize
 from nltk.stem import PorterStemmer,WordNetLemmatizer
