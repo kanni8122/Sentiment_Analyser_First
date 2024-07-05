@@ -16,7 +16,7 @@ import rake_nltk
 from rake_nltk import Rake
 from nltk import ne_chunk, pos_tag, word_tokenize,sent_tokenize
 from nltk.stem import PorterStemmer,WordNetLemmatizer
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer #VADER( Valence Aware Dictionary for Sentiment Reasoning) is an NLTK module that provides sentiment scores based on the words used. It is a rule-based sentiment analyzer in which the terms are generally labeled as per their semantic orientation
 from nltk.tree import Tree
 nltk.download('punkt')
 nltk.download('maxent_ne_chunker')
@@ -24,6 +24,7 @@ nltk.download('words')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('vader_lexicon')
+#required libraries for the nltk library 
 import langdetect
 from langdetect import detect,LangDetectException
 import sklearn
